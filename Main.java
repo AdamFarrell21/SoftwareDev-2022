@@ -1,4 +1,3 @@
-package Main;
 
 
 import java.util.Scanner;
@@ -136,18 +135,21 @@ public class Main {
                 System.out.print("Press 0 for menu, -1 to exit: ");*/
 //-----------------------------------------------------------------------------------------------------------
 			if (choice == 5) {
-				 
+				 // 5. print in reverse order
 				       
 				 for (int i = toolbox.length-1; i >= 0; i--) {  
 			            System.out.print(toolbox[i] + " ");  
 			        }  
+			     
+		
+			     
 			  System.out.print("Press 0 for menu, -1 to exit: ");
         }
 		                    
             
 //-----------------------------------------------------------------------------------------------------------                            
 			if (choice == 6) {
-                // 5. Remove a tool to update
+                // 6. Remove a tool to update
                 sc.nextLine();
                 System.out.print("Enter a tool to update: ");
                 String oldTool = sc.nextLine();
